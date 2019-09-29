@@ -1,4 +1,3 @@
 {{ define "content" }}
-  {{ partial "home.html" . }}
-  {{ range where .Data.Pages "Section" "!=" "secret" }}
+    {{ partial "home.html" . }}
 {{ end }}
